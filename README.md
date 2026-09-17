@@ -6,7 +6,7 @@ não é aberto e vive em outro repositório.
 
 ## O que o plugin instala
 
-- Servidor MCP remoto `planejamais` (`https://planejamais.com.br/api/mcp`),
+- Servidor MCP remoto `planejamais` (`https://planejamais.planejareconsultoria.com.br/api/mcp`),
   com OAuth 2.1 conduzido pelo Claude (Dynamic Client Registration + PKCE).
 - Skill `planejamais` com os fluxos de uso, o cuidado com `companyId` e as
   regras de confirmação para ações destrutivas.
@@ -46,7 +46,7 @@ organização Team/Enterprise; este plugin não cobre essa vitrine.
 
 ## Manutenção
 
-- A URL de produção pressupõe `https://planejamais.com.br`. Se o app mudar de
-  domínio, atualize `plugins/planejamais/.mcp.json`.
+- A URL de produção é `https://planejamais.planejareconsultoria.com.br/api/mcp`.
+  Se o app mudar de domínio, atualize `plugins/planejamais/.mcp.json` e suba a versão.
 - Ao publicar uma nova versão, incremente `version` em
   `plugins/planejamais/.claude-plugin/plugin.json` e no marketplace.

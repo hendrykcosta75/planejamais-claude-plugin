@@ -12,7 +12,7 @@
       "name": "planejamais",
       "source": "./plugins/planejamais",
       "description": "Planejamento estratégico, quadros de tarefas, reuniões, relatórios e tickets do Planeja+ via MCP, com OAuth conduzido pelo Claude.",
-      "version": "1.0.0"
+      "version": "1.0.1"
     }
   ]
 }
