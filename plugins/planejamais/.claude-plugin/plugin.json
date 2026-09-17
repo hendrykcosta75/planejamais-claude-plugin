@@ -1,0 +1,13 @@
+{
+  "name": "planejamais",
+  "displayName": "Planeja+",
+  "version": "1.0.0",
+  "description": "Conecta o Claude ao Planeja+ para consultar e atualizar planejamento estratégico, quadros de tarefas, reuniões, relatórios e tickets da sua empresa.",
+  "author": {
+    "name": "Planeja+",
+    "url": "https://planejamais.com.br"
+  },
+  "homepage": "https://planejamais.com.br",
+  "repository": "https://github.com/hendrykcosta75/planejamais-claude-plugin",
+  "keywords": ["planejamento", "tarefas", "projetos", "mcp", "gestao"]
+}
