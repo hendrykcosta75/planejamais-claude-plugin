@@ -13,7 +13,7 @@ não é aberto e vive em outro repositório.
 
 Nenhum token manual é necessário: na primeira chamada o Claude abre o navegador
 para o usuário autorizar, e o token pode ser removido depois em
-`https://planejamais.com.br/mcp`.
+`https://planejamais.planejareconsultoria.com.br/mcp`.
 
 ## Instalação
 
@@ -32,17 +32,15 @@ claude --plugin-dir ./plugins/planejamais
 
 ## Publicação no diretório
 
-A submissão é feita pelo formulário de plugins (o mesmo diretório comunitário de
-Cowork e Claude Code). Requisitos:
+A submissão é feita no portal de desenvolvedores do claude.ai
+(`https://claude.ai/directory/manage`) como **Plugin bundle**, com o caminho
+`plugins/planejamais`. Antes de enviar, rode:
 
-- Repositório público (este) — o formulário pede o link do GitHub.
-- `claude plugin validate` sem erros.
-- Org Team/Enterprise no claude.ai **ou** submissão pelo Console
-  (`https://platform.claude.com/plugins/submit`), que aceita autores
-  individuais.
+```bash
+claude plugin validate ./plugins/planejamais --profile directory
+```
 
-O diretório de **connectors** do claude.ai (web/app) é outro processo e exige
-organização Team/Enterprise; este plugin não cobre essa vitrine.
+O README e o LICENSE exibidos na listagem ficam dentro de `plugins/planejamais`.
 
 ## Manutenção
 
