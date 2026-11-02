@@ -1,8 +1,8 @@
 {
   "name": "planejamais",
   "owner": {
-    "name": "Planeja+",
-    "url": "https://planejamais.com.br"
+    "name": "Planejare Consultoria",
+    "url": "https://planejamais.planejareconsultoria.com.br/integracoes/planejamais"
   },
   "metadata": {
     "description": "Conector MCP oficial do Planeja+ para Claude Code e Cowork."
@@ -12,7 +12,7 @@
       "name": "planejamais",
       "source": "./plugins/planejamais",
       "description": "Planejamento estratégico, quadros de tarefas, reuniões, relatórios e tickets do Planeja+ via MCP, com OAuth conduzido pelo Claude.",
-      "version": "1.0.1"
+      "version": "1.0.2"
     }
   ]
 }
