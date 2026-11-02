@@ -13,6 +13,9 @@
   "license": "MIT",
   "icon": "./.claude-plugin/icon.png",
   "privacyPolicyUrl": "https://planejamais.planejareconsultoria.com.br/integracoes/planejamais/privacidade",
+  "termsOfServiceUrl": "https://planejamais.planejareconsultoria.com.br/integracoes/planejamais/termos",
+  "supportUrl": "https://planejamais.planejareconsultoria.com.br/integracoes/planejamais/suporte",
+  "documentationUrl": "https://planejamais.planejareconsultoria.com.br/integracoes/planejamais",
   "keywords": [
     "planejamento",
     "tarefas",
