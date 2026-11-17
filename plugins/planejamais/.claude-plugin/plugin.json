@@ -1,7 +1,7 @@
 {
   "name": "planejamais",
   "displayName": "Planeja+",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Conecta o Claude ao Planeja+ para consultar e atualizar planejamento estratégico, quadros de tarefas, reuniões, relatórios e tickets da sua empresa.",
   "author": {
     "name": "Planejare Consultoria",
